@@ -1,0 +1,1 @@
+// Primeira Variável em typescript
