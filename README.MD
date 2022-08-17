@@ -12,3 +12,5 @@ Se tiver restrict usar o comando a baixo
 
 - Set-ExecutionPolicy unrestricted
         Usar opçao a
+
+        By Leonardo Dev
