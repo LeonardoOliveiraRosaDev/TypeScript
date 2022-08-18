@@ -10,6 +10,10 @@ function declaracaolet() {
         var numeroTres = 3;
         numeroTres++;
         console.log(numeroTres);
+<<<<<<< HEAD
+=======
+        console.log(numeroTres);
+>>>>>>> 090b360944435b8dd17d14164b85ea07530fbe70
     }
     // criar um loop while()
     while (numeroUm < numeroDois) {
@@ -21,6 +25,7 @@ function declaracaolet() {
     // acessar as variáveis declaradas com let
     console.log(numeroUm);
     console.log(numeroDois);
+<<<<<<< HEAD
     console.log(numeroTres);
     console.log(numeroQuatro);
 }
@@ -63,3 +68,9 @@ function declaracaolet(){
 declaracaolet()
 
 */ 
+=======
+    // console.log(numeroTres)
+    // console.log(numeroQuatro)
+}
+declaracaolet();
+>>>>>>> 090b360944435b8dd17d14164b85ea07530fbe70

@@ -1,4 +1,5 @@
 // Primeira variavel let
+<<<<<<< HEAD
 var numeroUm: number = 1
 // Caso essas variaveis nao estejam aqui abaixo fora de um escopo{}
 // se usaria assim dentro do escopo var numeroTres: number | undefined = 3 
@@ -40,6 +41,8 @@ declaracaolet()
 
 /*
 // Primeira variavel let
+=======
+>>>>>>> 090b360944435b8dd17d14164b85ea07530fbe70
 let numeroUm: number = 1
 
 // criar uma função
@@ -53,6 +56,10 @@ function declaracaolet(){
             let numeroTres: number = 3
             numeroTres++
             console.log(numeroTres)
+<<<<<<< HEAD
+=======
+            console.log(numeroTres)
+>>>>>>> 090b360944435b8dd17d14164b85ea07530fbe70
         }
 
         // criar um loop while()
@@ -72,6 +79,10 @@ function declaracaolet(){
 }
 
 // chamar a função a sua execução
+<<<<<<< HEAD
 declaracaolet()
 
 */
+=======
+declaracaolet()
+>>>>>>> 090b360944435b8dd17d14164b85ea07530fbe70
