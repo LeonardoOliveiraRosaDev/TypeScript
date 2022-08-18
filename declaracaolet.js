@@ -14,12 +14,12 @@ function declaracaolet() {
         // 3º variável let
         numeroTres = 3;
         numeroTres++;
-        // console.log(numeroTres)
+        console.log(numeroTres);
     }
     // criar um loop while()
     while (numeroUm < numeroDois) {
         // 4º variável
-        numeroQuatro = 3;
+        numeroQuatro = 4;
         numeroUm++;
         // console.log(numeroQuatro)
     }
@@ -33,8 +33,6 @@ function declaracaolet() {
 declaracaolet();
 /*
 // Primeira variavel let
-=======
->>>>>>> 090b360944435b8dd17d14164b85ea07530fbe70
 let numeroUm: number = 1
 
 // criar uma função
@@ -48,10 +46,6 @@ function declaracaolet(){
             let numeroTres: number = 3
             numeroTres++
             console.log(numeroTres)
-<<<<<<< HEAD
-=======
-            console.log(numeroTres)
->>>>>>> 090b360944435b8dd17d14164b85ea07530fbe70
         }
 
         // criar um loop while()
@@ -71,7 +65,5 @@ function declaracaolet(){
 }
 
 // chamar a função a sua execução
-<<<<<<< HEAD
 declaracaolet()
-
 */

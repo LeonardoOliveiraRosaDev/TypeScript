@@ -14,7 +14,7 @@ function declaracaolet(){
         // declaração de um bloco if
         if(numeroUm < numeroDois){
             // 3º variável let
-           numeroTres = 3
+            numeroTres = 3
             numeroTres++
             console.log(numeroTres)
         }
@@ -22,9 +22,9 @@ function declaracaolet(){
         // criar um loop while()
         while(numeroUm < numeroDois){
             // 4º variável
-            numeroQuatro= 3
+            numeroQuatro= 4
             numeroUm++
-            console.log(numeroQuatro)
+            // console.log(numeroQuatro)
         }
 
         // acessar as variáveis declaradas com let
