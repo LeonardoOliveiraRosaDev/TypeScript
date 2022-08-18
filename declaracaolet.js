@@ -1,5 +1,10 @@
 // Primeira variavel let
 var numeroUm = 1;
+// Caso essas variaveis nao estejam aqui abaixo fora de um escopo{}
+// se usaria assim dentro do escopo var numeroTres: number | undefined = 3 
+// se usaria assim dentro do escopo var numeroQuatro: number | undefined = 4
+var numeroTres;
+var numeroQuatro;
 // criar uma função
 function declaracaolet() {
     // 2º variável let
@@ -7,23 +12,20 @@ function declaracaolet() {
     // declaração de um bloco if
     if (numeroUm < numeroDois) {
         // 3º variável let
-        var numeroTres = 3;
+        numeroTres = 3;
         numeroTres++;
-        console.log(numeroTres);
-
-        console.log(numeroTres);
+        // console.log(numeroTres)
     }
     // criar um loop while()
     while (numeroUm < numeroDois) {
         // 4º variável
-        var numeroQuatro = 4;
+        numeroQuatro = 3;
         numeroUm++;
-        console.log(numeroQuatro);
+        // console.log(numeroQuatro)
     }
     // acessar as variáveis declaradas com let
     console.log(numeroUm);
     console.log(numeroDois);
-
     console.log(numeroTres);
     console.log(numeroQuatro);
 }
@@ -31,6 +33,8 @@ function declaracaolet() {
 declaracaolet();
 /*
 // Primeira variavel let
+=======
+>>>>>>> 090b360944435b8dd17d14164b85ea07530fbe70
 let numeroUm: number = 1
 
 // criar uma função
@@ -44,6 +48,10 @@ function declaracaolet(){
             let numeroTres: number = 3
             numeroTres++
             console.log(numeroTres)
+<<<<<<< HEAD
+=======
+            console.log(numeroTres)
+>>>>>>> 090b360944435b8dd17d14164b85ea07530fbe70
         }
 
         // criar um loop while()
@@ -63,11 +71,7 @@ function declaracaolet(){
 }
 
 // chamar a função a sua execução
+<<<<<<< HEAD
 declaracaolet()
 
-*/ 
-
-    // console.log(numeroTres)
-    // console.log(numeroQuatro)
-
-
+*/
